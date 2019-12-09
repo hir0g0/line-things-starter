@@ -16,8 +16,8 @@ from linebot.models import (
 )
 
 app = Flask(__name__)
-line_bot_api = LineBotApi(os.environ['LINE_CHANNEL_ACCESS_TOKEN'])
-handler = WebhookHandler(os.environ['LINE_CHANNEL_SECRET'])
+line_bot_api = LineBotApi(os.environ['JTbwos3mip1R82a1K1AWmyblOL83yreCvIBMkZKI0zf0VSaEcNlrFlJIJnsBsAgqn+FS6ipd5FcHrVYTA7plYo3qKby+eMx2IT7FmhxJoAxtKRyMVs+oxHrmZ3ikgtopvztWcHMvCKCrU6nFERGyE1GUYhWQfeY8sLGRXgo3xvw='])
+handler = WebhookHandler(os.environ['5618d0e5d981acb6b6c3835a635d150b'])
 
 @app.route("/")
 def healthcheck():
