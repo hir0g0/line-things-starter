@@ -8,7 +8,7 @@
 #define DEVICE_NAME "LINE Things Trial M5Stack"
 
 // User service UUID: Change this to your generated service UUID
-#define USER_SERVICE_UUID "ab8ac462-e3b5-492a-8d38-943af7283e2e"
+#define USER_SERVICE_UUID "cff34598-235c-4499-8e3d-c590a1e0aefa"
 // User service characteristics
 #define WRITE_CHARACTERISTIC_UUID "E9062E71-9E62-4BC6-B0D3-35CDCD9B027B"
 #define NOTIFY_CHARACTERISTIC_UUID "62FBD229-6EDD-4D1A-B554-5C4E1BB29169"
